@@ -1,0 +1,16 @@
+-------- Vectores -----------
+
+** Declarar y acceso:
+String myVectors [] = new String [amount];
+
+myVectors[1] = "Hola";
+myVectors[2] = "Mundo";
+
+** Mostrarlos:
+for (int i=0; i<myVectors.length; i++){
+	sout("Index is:" + i +  "Value is: " + myVectors[i])
+}
+
+
+*****************
+Variabes Globales donde alojar los vectores para cada elemento de la agenda
